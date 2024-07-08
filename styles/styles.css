@@ -94,6 +94,8 @@ margin-top: 48px;
 .second-section-img img{
     height: 100%;
     width:100%;
+    border-style:dashed;
+    border-color: darkgray;
 }
 
 /* 65% OFF section ends header */
