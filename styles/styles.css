@@ -163,9 +163,8 @@ h1 {
     font-family: Inter;
     font-size: 20px;
     font-weight: 700;
-    text-align: left;
-    /* width: 103px; */
-    /* padding-left: 158; */
+    margin-right: 400px;
+    margin-top: 48px;
 }
 
 .right-side-content {
