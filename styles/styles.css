@@ -59,43 +59,127 @@ h1 {
     margin: 0% auto;
     margin-top: 120px;
 }
-.second-section-content{
+
+.second-section-content {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
-.second-section-content h1{  
+
+.second-section-content h1 {
     color: rgb(255, 0, 0);
     font-family: Inter;
     font-size: 88px;
     font-weight: 700;
     margin-bottom: 48px;
 }
-.second-section-content p{
+
+.second-section-content p {
     font-family: Inter;
     color: rgb(255, 0, 0);
-font-family: Inter;
-font-size: 24px;
-font-weight: 500;
-margin-bottom: 16px;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 16px;
 }
-.second-section-content h3{
+
+.second-section-content h3 {
     color: rgb(7, 2, 17);
-font-family: Inter;
-font-size: 48px;
-font-weight: 700;
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 700;
 }
-.second-section-img{
+
+.second-section-img {
     width: 802.9px;
-height: 500px;
-margin-top: 48px;
+    height: 500px;
+    margin-top: 48px;
 }
-.second-section-img img{
+
+.second-section-img img {
     height: 100%;
-    width:100%;
-    border-style:dashed;
+    width: 100%;
+    border-style: dashed;
     border-color: darkgray;
 }
 
 /* 65% OFF section ends header */
+
+/* Midnight party section starts here */
+.midnight-party-container {
+    width: 1320px;
+    height: 600px;
+    margin: 0 auto;
+    margin-top: 120px;
+    display: flex;
+    background-blend-mode: overlay;
+    background-color: rgba(0, 0, 0, 0.5);
+    background-image: url(../images/Vectorrr.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 16px;
+}
+
+.left-side-content {
+    width: 50%;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 24px;
+
+}
+
+.left-side-content h1 {
+    width: 642px;
+    height: 176px;
+    color: rgb(255, 255, 255);
+    font-family: Merriweather;
+    font-size: 64px;
+    font-weight: 900;
+    margin-left: 126px;
+    margin-bottom: 24px;
+}
+
+.left-side-content p {
+    width: 697px;
+    height: 60px;
+    color: rgba(255, 255, 255, 0.8);
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 400;
+    margin: top 24px;
+    margin-left: 50px;
+    padding-left: 50px;
+}
+
+#midnight-buttoon {
+    width: 103px;
+    height: 24px;
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 700;
+    text-align: left;
+    /* width: 103px; */
+    /* padding-left: 158; */
+}
+
+.right-side-content {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.right-side-content img {
+    width: 349.16px;
+    height: 464.65px;
+    border-style: dashed;
+    border-color: rgb(90, 87, 87);
+}
+
+/* Midnight party section ends here */
