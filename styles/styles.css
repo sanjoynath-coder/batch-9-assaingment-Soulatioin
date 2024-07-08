@@ -219,8 +219,96 @@ h1 {
     font-weight: 700;
     margin-top: 64px;
     background-color: red;
-    border:none;
+    border: none;
     border-radius: 5px;
 }
 
-    /* new park hotel section ends here */
+/* new park hotel section ends here */
+
+/* New best offer section starts here */
+
+.new-best-offer-cotainer {
+    width: 1320px;
+    height: 463px;
+    margin: 0 auto;
+    display: flex;
+}
+
+.new-offer-first-content {
+    width: 33%;
+}
+
+.new-offer-first-content h3 {
+    width: 207px;
+    height: 29px;
+    color: rgb(255, 0, 0);
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    margin-top: 104px;
+}
+
+.new-offer-first-content h1 {
+    width: 328px;
+    height: 60px;
+    color: rgb(7, 2, 17);
+    font-family: Merriweather;
+    font-size: 48px;
+    font-weight: 900;
+    margin-top: 16px;
+}
+
+.new-offer-first-content p {
+    width: 393px;
+    height: 128px;
+    color: rgba(7, 2, 17, 0.6);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    margin-top: 22px;
+}
+
+.new-offer-second-content {
+    width: 33%;
+   border-radius: 50%;
+   display:flex;
+   justify-content: center;
+   align-items: center;
+border:20px solid red;  
+margin-left: 70px; 
+}
+.new-offer-second-content img{
+    border:2px solid darkolivegreen;
+    border-style: dashed;
+}
+
+.new-offer-third-content {
+    width: 33%;
+    margin-left: 118px;
+}
+
+.new-offer-third-content h1 {
+    width: 126px;
+    height: 58px;
+    color: rgb(255, 0, 0);
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 700;
+    margin-top: 112px;
+}
+
+.new-offer-third-content p {
+    width: 276px;
+    height: 96px;
+    color: rgba(7, 2, 17, 0.6);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    margin-top: 16px;
+}
+
+.new-offer-third-content img {
+margin-top:35px;
+}
+
+/* New best offer section ends here
