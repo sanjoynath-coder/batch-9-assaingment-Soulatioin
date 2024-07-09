@@ -100,8 +100,8 @@ h1 {
 .second-section-img img {
     height: 100%;
     width: 100%;
-    border-style: dashed;
-    border-color: darkgray;
+    /* border-style: dashed;
+    border-color: darkgray; */
 }
 
 /* 65% OFF section ends header */
@@ -177,8 +177,8 @@ h1 {
 .right-side-content img {
     width: 349.16px;
     height: 464.65px;
-    border-style: dashed;
-    border-color: rgb(90, 87, 87);
+    /* border-style: dashed;
+    border-color: rgb(90, 87, 87); */
 }
 
 /* Midnight party section ends here */
@@ -276,12 +276,14 @@ h1 {
     align-items: center;
     border: 20px solid red;
     margin-left: 70px;
+    padding: 49px 49px 49px 49px;
+
 }
 
-.new-offer-second-content img {
+/* .new-offer-second-content img {
     border: 2px solid darkolivegreen;
     border-style: dashed;
-}
+} */
 
 .new-offer-third-content {
     width: 33%;
@@ -317,10 +319,12 @@ h1 {
 /* HOLIDAYS SALES section starts here */
 
 .holidays-sales-container {
-    width: 1068px;
-    height: 260px;
+    width: 1320px;
+    height: 986.07px;
     margin: 0 auto;
+    position: relative;
     text-align: center;
+
 }
 
 .holidays-sales-container h3 {
@@ -330,6 +334,7 @@ h1 {
     font-family: Inter;
     font-size: 24px;
     font-weight: 500;
+    margin-top: 120px;
 }
 
 .holidays-sales-container h1 {
@@ -338,13 +343,16 @@ h1 {
     font-weight: 900;
     margin-top: 16px;
 }
-.extra-text-color-red{
-   color:rgb(255, 0, 0);
+
+.extra-text-color-red {
+    color: rgb(255, 0, 0);
 }
-.extra-text-color-black{
-    color:rgb(7, 2, 17);
+
+.extra-text-color-black {
+    color: rgb(7, 2, 17);
 }
-.holidays-sales-container p{
+
+.holidays-sales-container p {
     color: rgba(7, 2, 17, 0.6);
     font-family: Inter;
     font-size: 20px;
@@ -352,5 +360,27 @@ h1 {
     margin-top: 28px;
 }
 
+.solid-color {
+    width: 1320px;
+    height: 229px;
+    background-color: red;
+    position: absolute;
+    top: 77%;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
 
+.gitfbox {
+    width: 674.82px;
+    height: 577.96px;
+    position: relative;
+    z-index: 1;
+}
+
+.girl-container{
+    position: absolute;
+    bottom: 288px;
+    left: 70%;
+}
 /* HOLIDAYS SALES section ends here */
