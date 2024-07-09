@@ -403,34 +403,83 @@ h1 {
     font-weight: 500;
     margin-bottom: 16px;
 }
-.portfolio-text-content h2{
+
+.portfolio-text-content h2 {
     width: 566px;
-    height: 60px;color: rgb(7, 2, 17);
+    height: 60px;
+    color: rgb(7, 2, 17);
     font-family: Merriweather;
     font-size: 48px;
     font-weight: 900;
     margin-bottom: 22px;
 }
-.portfolio-text-content p{
+
+.portfolio-text-content p {
     width: 896px;
-    height: 64px;color: rgba(7, 2, 17, 0.6);
+    height: 64px;
+    color: rgba(7, 2, 17, 0.6);
     font-family: Inter;
     font-size: 20px;
     font-weight: 400;
     margin-bottom: 48px;
 
-.item{
-    width: 424px;
-height: 450px;
+    .item {
+        width: 424px;
+        height: 450px;
+    }
 }
+
+.item {
+    width: 100%;
+    height: 100%;
 }
-.item{
-    width:100%;
-height:100%;
-}
-.portfolio-items{
+
+.portfolio-items {
     display: grid;
-    grid-template-columns:repeat(3, 1fr);
-    gap:5px
+    grid-template-columns: repeat(3, 1fr);
+    gap: 5px
 }
+
 /* portfolio section end here */
+
+/* subscribe newsletter section staets here */
+
+.newsletter-container {
+    width: 1320px;
+    height: 616px;
+    margin: 0 auto;
+    border: 2px solid red;
+    margin-top: 120px;
+    border-radius: 16px;
+    background: rgba(255, 0, 0, 0.05);
+}
+
+.newsletter-content {
+    text-align: center;
+    padding: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.newsletter-content h2 {
+    width: 512px;
+    height: 60px;
+    color: rgb(7, 2, 17);
+    font-family: Merriweather;
+    font-size: 48px;
+    font-weight: 900;
+    text-align: center;
+    margin-top: 40px;
+}
+.newsletter-content p{
+    width: 896px;
+    height: 64px;color: rgba(7, 2, 17, 0.6);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    margin-top: 22px;
+}
+
+/* subscribe newsletter section ends here */
